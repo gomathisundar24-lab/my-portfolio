@@ -137,7 +137,13 @@ background:#f1f0ec;padding:25px 7vw;flex-direction:column;gap:22px;border-bottom
   display: block;          /* makes the whole card clickable */
   cursor: pointer;         /* hand cursor */
 }
-
+.project-link:hover .project-arrow {
+  transform: translate(4px, -4px);
+}
+.project-arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
 .project-link * {
   text-decoration: none;
 }
