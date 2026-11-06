@@ -128,3 +128,16 @@ background:#f1f0ec;padding:25px 7vw;flex-direction:column;gap:22px;border-bottom
 .statement-section h2{font-size:clamp(3.4rem,13vw,6rem)}.contact{min-height:540px}.contact h2{font-size:clamp(4rem,15vw,6rem)}
 .contact-bottom{gap:12px;flex-wrap:wrap;margin-top:75px}.intro-word{font-size:14vw}.intro-top{font-size:8px}
 .intro-caption{font-size:8px;text-align:center}}
+.project-link,
+.project-link:visited,
+.project-link:hover,
+.project-link:active {
+  color: inherit;          /* removes the purple */
+  text-decoration: none;   /* removes all underlines */
+  display: block;          /* makes the whole card clickable */
+  cursor: pointer;         /* hand cursor */
+}
+
+.project-link * {
+  text-decoration: none;
+}
